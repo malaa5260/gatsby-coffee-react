@@ -19,16 +19,6 @@ export default class Navbar extends Component {
         path: "/about",
         text: "about",
       },
-      {
-        id: 3,
-        path: "/contact",
-        text: "contact",
-      },
-      {
-        id: 4,
-        path: "/us",
-        text: "us",
-      },
     ],
   }
   navbarHandler = () => {
