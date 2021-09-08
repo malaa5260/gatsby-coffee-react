@@ -30,7 +30,7 @@ export default class Navbar extends Component {
           {/* https://www.iconfinder.com/icons/185113/coffee_streamline_icon
           Creative Commons (Attribution 3.0 Unported);
           https://www.iconfinder.com/webalys */}
-          fefwfwwg
+          
         </Link>
       </nav> 
     )
