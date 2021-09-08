@@ -26,9 +26,12 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar navbar-expand-sm bg-light navbar-light">
         <Link to="/" className="navbar-brand">
-          <img src={logo} alt="logo"/>
+          <img src={logo} alt="logo" />
+          {/* https://www.iconfinder.com/icons/185113/coffee_streamline_icon
+          Creative Commons (Attribution 3.0 Unported);
+          https://www.iconfinder.com/webalys */}
         </Link>
-      </nav>
+      </nav> 
     )
   }
 }
