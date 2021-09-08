@@ -24,6 +24,11 @@ export default class Navbar extends Component {
         path: "/contact",
         text: "contact",
       },
+      {
+        id: 4,
+        path: "/us",
+        text: "us",
+      },
     ],
   }
   navbarHandler = () => {
