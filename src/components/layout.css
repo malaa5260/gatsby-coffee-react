@@ -1,0 +1,8 @@
+/* navbar start */
+.navbar-toggler:focus{
+    box-shadow: unset !important;
+}
+.navbar-light .navbar-toggler{
+    border:unset !important;
+}
+/* navbar end  */
