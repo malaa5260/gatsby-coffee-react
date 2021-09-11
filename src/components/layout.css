@@ -1,5 +1,5 @@
 :root{
-    --mainBrown:#2d1ef1;
+    --mainBrown:#2d1e1f;
     --mainYellow:#ff9e09;
     --mainGrey:#ece8dc;
     --mainWhite:#fff;
@@ -31,3 +31,41 @@ h1,h2,h3,h4,h5,h6{
     border:unset !important;
 }
 /* navbar end  */
+.default-background{
+    min-height:calc(100vh - 74px);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background: linear-gradient(rgba(255,158,9,0.5),rgba(255,158,9,0.5));
+    background-position: center;
+    background-size:cover;
+    opacity:unset !important;
+}
+/*start scoller */
+::-webkit-scrollbar {
+            width: .5em;
+  }
+                
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #adb5bd;
+}
+                
+::-webkit-scrollbar-thumb {
+  background-color: var(--mainYellow);
+  outline: 1px solid var(--mainYellow);
+}
+/*end scoller */
+.btn-yellow{
+    color:var(--mainYellow);
+    border-color: var(--mainYellow);
+}
+.btn-yellow:hover{
+    background-color:var(--mainYellow);
+    color:var(--mainBrown) ;
+}
+.titleing{
+    font-weight:bold !important;
+}
+.footer{
+    background:var(--mainBrown);
+}

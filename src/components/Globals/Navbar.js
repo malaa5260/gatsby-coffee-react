@@ -31,7 +31,7 @@ export default class Navbar extends Component {
   }
   render() {
     return (
-      <nav className="navbar navbar-expand-sm bg-light navbar-light">
+      <nav className="navbar navbar-expand-sm bg-light navbar-light sticky-top">
         <Link to="/" className="navbar-brand">
           <img src={logo} alt="logo" />
           {/* https://www.iconfinder.com/icons/185113/coffee_streamline_icon
