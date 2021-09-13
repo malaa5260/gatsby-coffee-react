@@ -1,27 +1,26 @@
 import React from "react"
-import { Link } from "gatsby";
-import Title from '../Globals/Title';
+import { Link } from "gatsby"
+import Title from "../Globals/Title"
 export default function info() {
   return (
     <section className="py-5">
       <div className="container">
-          <Title title="our story"/>
+        <Title title="our story" />
         <div className="row">
           <div className="col-10 col-sm-8 mx-auto text-center">
             <p className="text-muted lead mb-5">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              Coffee is a brewed drink prepared from roasted coffee beans, the
+              seeds of berries from certain Coffea species. From the coffee
+              fruit, the seeds are separated to produce a stable, raw product:
+              unroasted green coffee. The seeds are then roasted, a process
+              which transforms them into a consumable product: roasted coffee,
+              which is ground into a powder and typically steeped in hot water
+              before being filtered out, producing a cup of coffee.
             </p>
             <Link to="/about">
-                <button className="btn text-uppercase btn-yellow">about page</button>
+              <button className="btn text-uppercase btn-yellow">
+                about page
+              </button>
             </Link>
           </div>
         </div>
