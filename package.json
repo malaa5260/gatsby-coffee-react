@@ -23,6 +23,7 @@
     "react-icons": "^4.2.0"
   },
   "devDependencies": {
+    "gatsby-cli": "^3.13.0",
     "prettier": "2.3.2"
   },
   "keywords": [
