@@ -7,7 +7,11 @@ export default function Contact() {
         <Title title="contact us" />
         <div className="row">
           <div className="col-sm-8 col-md-6 mx-auto">
-            <form className="">
+            <form
+              action="https://formspree.io/f/xpzkbjgp"
+              method="POST"
+              enctype="multipart/form-data"
+            >
               {/* name */}
               <div className="form-group">
                 <label htmlFor="name" className="mb-1">
@@ -40,7 +44,7 @@ export default function Contact() {
                   Description
                 </label>
                 <textarea
-                  className="form-control"
+                  className="form-control mb-2"
                   name="description"
                   rows="5"
                   id="description"
@@ -50,7 +54,7 @@ export default function Contact() {
               {/* submit */}
               <button
                 type="submit"
-                className="btn btn-yellow btn-block text-capitalize mt-5 w-100"
+                className="btn btn-yellow btn-block text-capitalize mt-3 w-100"
               >
                 submit
               </button>
