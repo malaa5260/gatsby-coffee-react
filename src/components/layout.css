@@ -83,3 +83,11 @@ h1,h2,h3,h4,h5,h6{
 .iamging{
     border-radius: 5px;
 }
+/* {products} */
+.imgproduct{
+ max-width: 350px;
+ max-height:280px;
+ min-width: 350px;
+ min-height:280px;
+ object-fit: cover;  
+}
