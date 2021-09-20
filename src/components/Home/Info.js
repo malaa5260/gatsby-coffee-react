@@ -17,7 +17,11 @@ export default function info() {
               which is ground into a powder and typically steeped in hot water
               before being filtered out, producing a cup of coffee.
             </p>
-            
+            <Link to="/about">
+              <button className="btn text-uppercase btn-yellow">
+                about page
+              </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -30,38 +30,25 @@ export const query = graphql`
         }
       }
     }
-    menu: allContentfulCoffeeItem {
-      edges {
-        node {
-          id
-          title
-          description {
-            description
-          }
-          price
-          category
-          image {
-            fixed(width: 75, height: 75) {
-              ...GatsbyContentfulFixed_tracedSVG
-            }
-          }
+      
+  menu: allContentfulCoffeeItem {
+    edges {
+     node {
+        id
+        title
+        description {
+         description
         }
-      }
-    }
-    products: allContentfulCoffeeProduct {
-      edges {
-        node {
-          id
-          title
-          price
-          image {
-            fluid(maxHeight:426) {
-              src
-            }
+        price
+        category
+        image {
+          fixed(width: 75, height: 75) {
+            ...GatsbyContentfulFixed_tracedSVG
           }
-        }
+       }
+       }
+     } 
       }
-    }
   }
 `
 
