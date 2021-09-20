@@ -59,7 +59,7 @@ export default class Menu extends Component {
               </div>
             </div>
             {/* Items */}
-            {/* <div className="row ">
+            <div className="row ">
               {this.state.coffeeItems.map(({ node }) => {
                 return (
                   <div
@@ -69,7 +69,7 @@ export default class Menu extends Component {
                     <div>
                       <img src={node.image.fixed.src} alt="coffeeitem" className="iamging"/>
                     </div>
-                    item text
+                    {/* item text */}
                     <div className="flex-grow-1 px-3">
                       <div className="d-flex ">
                         <h6 className="mb-0">
@@ -86,7 +86,7 @@ export default class Menu extends Component {
                   </div>
                 )
               })}
-            </div> */}
+            </div>
           </div>
         </section>
       )

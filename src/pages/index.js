@@ -26,30 +26,29 @@ export const query = graphql`
     img: file(relativePath: { eq: "default-background.jpeg" }) {
       childImageSharp {
         fluid {
-          ...GatsbyImageSharpFluid_tracedSVG
+          src
         }
       }
     }
-      
-  menu: allContentfulCoffeeItem {
-    edges {
-     node {
-        id
-        title
-        description {
-         description
-        }
-        price
-        category
-        image {
-          fixed(width: 75, height: 75) {
-            ...GatsbyContentfulFixed_tracedSVG
+    menu: allContentfulCoffeeItem {
+      edges {
+        node {
+          id
+          title
+          description {
+            description
           }
-       }
-       }
-     } 
+          price
+          category
+          image {
+            fixed(width: 75, height: 75) {
+             src
+            }
+          }
+        }
       }
-  }
+    }
+      }
 `
 
 export default IndexPage
