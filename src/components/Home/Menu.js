@@ -71,11 +71,11 @@ export default class Menu extends Component {
                     </div>
                     {/* item text */}
                     <div className="flex-grow-1 px-3">
-                      <div className="d-flex ">
-                        <h6 className="mb-0">
+                      <div className=" ">
+                        <h6 className="mb-0 d-inline-block">
                           <small>{node.title}</small>
                         </h6>
-                        <h6 className="mb-0 text-yellow">
+                        <h6 className="mb-0 text-yellow d-inline-block float-right">
                           $<small>{node.price}</small>
                         </h6>
                       </div>
